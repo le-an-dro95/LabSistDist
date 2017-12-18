@@ -5,10 +5,6 @@ public class PSOMain {
 		
 		inicio = System.currentTimeMillis();
 		new PSOProcesso().execute();
-		System.out.println("------------------OUTRO---------------------");
-		new PSOProcesso2().execute();
-		System.out.println("------------------OUTRO---------------------");
-		new PSOProcesso3().execute();
 		
 		fim = System.currentTimeMillis();
 		

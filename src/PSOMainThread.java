@@ -41,7 +41,7 @@ public class PSOMainThread {
 
 			System.out.println("Thread 2 iniciada ...");
 
-			new PSOProcesso2().execute();
+			new PSOProcesso().execute();
 
 			tb = 1;
 			//System.out.println("tb = " + tb);
@@ -55,7 +55,7 @@ public class PSOMainThread {
 
 			System.out.println("Thread 3 iniciada ...");
 
-			new PSOProcesso3().execute();
+			new PSOProcesso().execute();
 
 			tc = 1;
 			//System.out.println("tc = " + tc);
